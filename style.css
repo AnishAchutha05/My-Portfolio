@@ -356,7 +356,7 @@ body{
     padding-left:20px;
     padding-right:20px;
     border-radius:2.5rem;
-    background:linear-gradient(to right, #25D366, #128C7E);
+    background:linear-gradient(to right, rgb(75, 129, 245) , rgb(0, 100, 249));
     margin-top:20px;
     margin-bottom:10px;
     box-shadow: 0 3px 6px rgb(94, 94, 94);
@@ -364,7 +364,7 @@ body{
 }
 
 .connect-btn:hover{
-    background:linear-gradient(to right, #25D366, #128C7E);
+    background:linear-gradient(to right, rgb(75, 129, 245) , rgb(0, 100, 249));
     transform: scale(1.05); 
 }
 
