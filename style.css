@@ -67,16 +67,6 @@
   cursor: pointer;
 }
 
-
-@media (max-width:768px){
-    .navbar{
-        display:none;
-    }
-    .side{
-        display:block;
-    }
-}
-
 .side{
        display: none;
      font-size: 24px;
@@ -140,20 +130,11 @@
  
 
 body{
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(0, 0, 0);
     padding-top:80px;
     
 }
 
-.spline{
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    position:fixed;
-    z-index:-100;
-    filter:brightness(50%)
-}
 
 @media (max-width:768px){
     .spline{
