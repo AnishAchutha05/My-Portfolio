@@ -815,3 +815,7 @@ html{
 *{
   box-sizing: border-box;
 }
+
+.n8n svg{
+  color: rgb(177, 62, 62);
+}
