@@ -164,12 +164,7 @@
         link.addEventListener('click', function() {
             sidebar.classList.remove('active');
         });
-    });
-
-window.onload = function() {
-  window.scrollTo(0, 0);
-};
-    
+    }); 
     document.addEventListener('click', function(event) {
         if (!sidebar.contains(event.target) && !sideBtn.contains(event.target)) {
             sidebar.classList.remove('active');
@@ -184,6 +179,7 @@ window.onload = function() {
 
 </body>
 </html>
+
 
 
 
